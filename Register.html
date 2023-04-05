@@ -5,7 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Register.css" />
   </head>
   <body>
     <nav>
@@ -21,8 +35,8 @@
           d="M480 575q-66 0-108-42t-42-108q0-66 42-108t108-42q66 0 108 42t42 108q0 66-42 108t-108 42ZM160 896v-94q0-38 19-65t49-41q67-30 128.5-45T480 636q62 0 123 15.5T731 696q31 14 50 41t19 65v94H160Z"
         />
       </svg>
-      <li class="register"><a href="/PAGE3/index.html">Register</a></li>
-      <li class="login"><a href="">Login</a></li>
+      <li class="register"><a href="">Register</a></li>
+      <li class="login"><a href="Login.html">Login</a></li>
       <svg
         class="add_svg"
         width="58"
@@ -54,7 +68,7 @@
         </defs>
       </svg>
 
-      <li><a class="sell" href="/PAGE2/index.html">Sell</a></li>
+      <li><a class="sell" href="Sell.html">Sell</a></li>
       <li><a class="profile" href="/page6/index.html">Profile</a></li>
       <svg
         class="hamburger"
@@ -67,9 +81,13 @@
           d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
         />
       </svg>
-      <li><a class="ads" href="/page5/index.html">Ads</a></li>
-      <li class="GO-BACK"><a href="/PAGE1/index.html">RETURN</a></li>
+      <li><a class="ads" href="Ads.html">Ads</a></li>
+      <li class="GO-BACK"><a href="index.html">RETURN</a></li>
     </nav>
+
+
+
+
 
     <div class="dropdown">
       <a href="/PAGE3/index.html">Register</a>
@@ -85,43 +103,52 @@
   
      </div>
 
+
+    
     <section>
       <div class="container">
         <div class="img-box">
-          <img class="img" src="/imgs/iT project img.PNG" alt="" />
+          <img class="img" src="imgs/iT project img.PNG" alt="" />
         </div>
 
         <div class="right-side-content">
-          <button class="sign-up">Sign up</button>
+          <div class="sign-in-up">
+            <button class="sign-up">Sign up</button>
 
-          <button class="sign-in">Sign In</button>
+            <button class="sign-in">Sign In</button>
+          </div>
 
-          <h5 class="account">Login</h5>
-          <p class="get-started">Welcome back</p>
-          <br />
-          <br />
-
-          <div>
-            <label for="">Email</label>
+          <h5 class="account">Create an account</h5>
+          <p class="get-started">
+            Let’s get started with your 30 days free trial
+          </p>
+          <div class="input">
+            <label for="">Name</label>
             <br />
             <input type="text" />
+
+            <div>
+              <label for="">Email</label>
+              <br />
+              <input type="text" />
+            </div>
+
+            <label for="">Password</label>
+            <br />
+            <input type="password" />
           </div>
 
           <br />
-
-          <label for="">Password</label>
-          <br />
-          <input type="password" />
-
-          <br />
           <br />
           <br />
 
-          <button class="create">Login</button>
+          <div class="button">
+            <button class="create">Create Account</button>
 
-          <br />
+            <br />
 
-          <button class="sign-in2">Sign in with Google</button>
+            <button class="sign-up2">Sign up with Google</button>
+          </div>
 
           <br />
           <br />
@@ -167,6 +194,6 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
-    <script src="/Page4/index.js"></script>
+    <script src="Register.js"></script>
   </body>
 </html>
