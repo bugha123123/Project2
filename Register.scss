@@ -75,21 +75,39 @@ max-width: 100%;
 
 
 .dropdown{
-  opacity: 0;
-
-}
-
-#overlay{
-
-width: 100vw;
-height: 100vh;
-position: fixed;
-top: 0;
-left: 0;
-overflow: hidden;
-
-display: none;
-}
+  height: 400px;
+  width: 100%;
+  border: 1px solid red;
+ 
+  
+  top: 124px;
+ text-align: center;
+ z-index: 2;
+ position: absolute;
+  background: blue;
+  overflow: hidden;
+  display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   background-color: red;
+   border-radius: 25px;
+ opacity: 0;
+ z-index: -1;
+ 
+ 
+ 
+ 
+ }
+ 
+ .dropdown > a{
+   color: white;
+   text-decoration: none;
+   display: flex;
+ justify-content: center;
+ flex-direction: row;
+  display: none;
+ }
 
 
 
@@ -111,33 +129,7 @@ nav .hamburger{
 
 
 
-.dropdown{
-  background-color: aqua;
-   height: 0;
-  display: flex;
-  flex-direction: column;
-  padding-top: 20px;
-  gap: 10px;
-  font-size: 16px;
-transition: all .6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
-
-a{
-  text-decoration: none;
-  font-weight: bold;
-  text-align: center;
-  border-bottom: 1px solid blue ;
-  padding-bottom: 6px;
-}
-
-a:last-child{
-
-
-border-bottom: none;
-padding-bottom: 10px;
-}
-
-}
 
 
 
